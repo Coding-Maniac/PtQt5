@@ -12,7 +12,7 @@ class Window(QMainWindow):
         self.width =680
         self.height = 500
         self.InitWindow()
-        self.setWindowIcon(QtGui.QIcon("mass.png"))           #This is used for setting an icon.You should have the file stored in your project folder
+        self.setWindowIcon(QtGui.QIcon("icon.png"))           #This is used for setting an icon.You should have the file stored in your project folder
 
     def InitWindow(self):
         self.setWindowTitle(self.title)
