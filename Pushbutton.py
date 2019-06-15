@@ -26,3 +26,10 @@ class Window(QMainWindow):
         button.move(100,100)
         #button.setGeometry(QRect(100,100,111,30)) #This is used to set the size of the  button
         button.setIcon(QtGui.QIcon("icon.png")) #The file needs to be in the same folder
+        
+        
+        
+if __name__ == "__main__":             
+    App = QApplication(sys.argv)
+    window =Window()
+    sys.exit(App.exec())
