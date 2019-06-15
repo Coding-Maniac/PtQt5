@@ -25,4 +25,4 @@ class Window(QMainWindow):
         button =QPushButton("CLICK ME",self) #The text inside is displayed in the button
         button.move(100,100)
         #button.setGeometry(QRect(100,100,111,30)) #This is used to set the size of the  button
-        button.setIcon("icon.png") #The file needs to be in the same folder
+        button.setIcon(QtGui.QIcon("icon.png")) #The file needs to be in the same folder
