@@ -25,3 +25,12 @@ print(time.toString())
 print(time.toString(Qt.DefaultLocaleLongDate))
 print("_______________________________")
 
+
+#The UTC time:
+
+
+datetime = QDateTime.currentDateTime()
+print("Local Date and Time is " + datetime.toString(Qt.DefaultLocaleLongDate))
+print("The UTC time is" + datetime.toUTC().toString())
+print("The offset from UTC is {0} seconds".format(datetime.offsetFromUtc()))
+
