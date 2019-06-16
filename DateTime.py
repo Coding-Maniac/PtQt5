@@ -17,3 +17,11 @@ print(date.toString(Qt.ISODate))
 print(date.toString(Qt.DefaultLocaleLongDate))
 print("_______________________________")
 
+
+time = QTime.currentTime()
+print("_______________________________")
+print(time.toString())
+
+print(time.toString(Qt.DefaultLocaleLongDate))
+print("_______________________________")
+
