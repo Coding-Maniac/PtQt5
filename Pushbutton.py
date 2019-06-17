@@ -28,6 +28,7 @@ class Window(QMainWindow):
         #button.setGeometry(QRect(100,100,111,30)) #This is used to set the size of the  button
         button.setIcon(QtGui.QIcon("icon.png")) #The file needs to be in the same folder
         button.setIcon(QtCore.Qsize(40,40))
+        button.setToolTip("This is a click me button")
         
         
         
