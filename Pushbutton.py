@@ -5,7 +5,8 @@ from PyQt5.QtCore import QRect
 from Pyqt5 import Qtcore
 
 
-
+#___________________________________________________________________________________________________________________________
+#This function is used to create a window
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -19,6 +20,7 @@ class Window(QMainWindow):
         self.setGeometry(top,left,width,height)
         self.UIcomp()
         self.show()
+ #_______________________________________________________________________________________________________________________________
         
         
         #This function is used to create the button
