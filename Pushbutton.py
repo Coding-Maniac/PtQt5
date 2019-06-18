@@ -39,6 +39,9 @@ class Window(QMainWindow):
             button.move(200,200)
             button.setToolTip("<h1>Gud Bye User</h1>")
             button.clicked.connect(self.exitme)
+        def exitme(self):
+            sys.exit()
+
 
         
         
