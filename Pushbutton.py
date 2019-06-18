@@ -34,13 +34,27 @@ class Window(QMainWindow):
             button.setIcon(QtCore.Qsize(40,40))
             button.setToolTip("<h2>This is a click me button<h2>")  #You can also use header sizes for the tooltip
 
+        
+        
         def CreateBtn(self):
             button=QPushButton("Click To Quit",self)
             button.move(200,200)
             button.setToolTip("<h1>Gud Bye User</h1>")
             button.clicked.connect(self.exitme)
+        
+        
+        
         def exitme(self):
             sys.exit()
+        
+        
+        
+        def trybtn(self):
+            a = 2
+            b = 3
+            c = str(a + b)
+            button = QPushButton(c,self)
+            button.move(300,300)
 
 
         
