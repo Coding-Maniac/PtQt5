@@ -19,6 +19,8 @@ class Window(QMainWindow):
         self.setWindowTitle(title)
         self.setGeometry(top,left,width,height)
         self.UIcomp()
+        self.createbtn()
+        self.trybtn()
         self.show()
  #_______________________________________________________________________________________________________________________________
         
